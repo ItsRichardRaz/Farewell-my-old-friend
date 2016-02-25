@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~
+Üldine Cx
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+html, body {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    color: azure;
+    font-family: 'Source Code Pro', sans-serif !important;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~
+Info kaart :b
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+div.info {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 25%;
+    padding: 16px;
+}
+
+.info img {
+    height: 118px;
+    width: 118px;
+}
+
+.info p {
+    margin-top: 16px;
+    max-height: 20%;
+}
+
+div.jalus {
+    width: 100%;
+    position: fixed;
+    height: 63px;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    padding: 16px 16px;
+}
+
+.jutt {
+    list-style-type: none;
+    padding-left: 0;
+    overflow: hidden;
+    font-size: 23px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~
+Jalus ^-^
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.jalus p {
+    margin-top: 5px;
+    font-size: 15px;
+    float: left !important;
+}
+
+.jalus p:hover { 
+    color: dimgray; 
+}
+
+.jalus .sots {
+    font-size: 22px;
+    float: right !important;
+}
+
+.jalus .sots a i {
+    padding-right: 4px;
+    color: #333;
+}
+
+.jalus .sots a i:hover { 
+    color: dimgray; 
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~
+Reag. Korrapärasus x3
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media only screen
+and (max-width: 900px) {
+    div.info {
+        width: 30%;
+    }
+}
+
+@media only screen
+and (max-width: 750px) {
+    div.info {
+        width: 35%;
+    }
+}
+
+@media only screen
+and (max-width: 650px) {
+    div.info {
+        width: 100%;
+    }
+}
+
+@media only screen
+and (max-width: 500px) {
+    div.info {
+        height: 100%;
+    }
+    
+    .jalus {
+        background-color: transparent!important;
+        margin: 20px 0px;
+    }
+    
+    .jalus .sots {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .jalus p {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen
+and (max-height: 525px) {
+    div.info {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .jalus {
+        background-color: transparent!important;
+        margin: 25px 0px;
+    }
+    
+    .jalus .sots {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .jalus p {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen
+and (max-width: 435px)
+and (max-height: 430px) {
+    .jalus {
+        display: none;
+    }
+}
+
+@media only screen
+and (max-height: 350px)
+and (min-width: 0px) {
+    .jalus {
+        display: none;
+    }
+}
+
+@media only screen
+and (max-height: 280px)
+and (min-width: 0px) {
+    .info img {
+        display: none;
+    }
+}
+
+@media only screen
+and (max-height: 370px)
+and (max-width: 300px) {
+    .info img {
+        display: none;
+    }
+}
