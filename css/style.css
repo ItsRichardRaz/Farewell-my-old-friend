@@ -57,7 +57,7 @@ div.info {
 .info img {
     height: 118px;
     width: 118px;
-    content: url('https://pbs.twimg.com/profile_images/585769811050799104/u3Fbzgfu_400x400.png');
+    content: url('http://res.cloudinary.com/demo/image/twitter_name/RichardAAbramso.jpg');
 }
 
 .info p {
@@ -78,14 +78,33 @@ div.jalus {
     padding: 16px 16px;
 }
 
-.jalus p {
+.jalus p.aut {
     margin-top: 5px;
     font-size: 15px;
     float: left !important;
 }
 
-.jalus p:hover {
+.jalus p.aut:hover {
     color: dimgray;
+}
+
+.jalus img.sponsor {
+    content: url('../img/zone-gray.png');
+    height: 10px;
+}
+
+.jalus a img.sponsor:hover {
+    content: url('../img/zone-color.png');
+}
+
+.jalus img.sp1 {
+    float: left;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+
+.jalus img.sp2 {
+    display: none;
 }
 
 .jalus .sots {
@@ -131,15 +150,25 @@ Reag. Korrapärasus x3
     }
     .jalus {
         background-color: transparent!important;
-        margin: 20px 0px;
+        margin: 28px 0px;
     }
     .jalus .sots {
         text-align: center;
         width: 100%;
     }
-    .jalus p {
+    .jalus p.aut {
         text-align: center;
+        margin-bottom: auto;
         width: 100%;
+    }
+    .jalus img.sp1 {
+        display: none;
+    }
+    .jalus img.sp2 {
+        display: initial;
+        margin-top: 0px;
+        margin-bottom: 6px;
+        float: none;
     }
 }
 
@@ -150,15 +179,25 @@ Reag. Korrapärasus x3
     }
     .jalus {
         background-color: transparent!important;
-        margin: 25px 0px;
+        margin: 28px 0px;
     }
     .jalus .sots {
         text-align: center;
         width: 100%;
     }
-    .jalus p {
+    .jalus p.aut {
         text-align: center;
+        margin-bottom: auto;
         width: 100%;
+    }
+    .jalus img.sp1 {
+        display: none;
+    }
+    .jalus img.sp2 {
+        display: initial;
+        margin-top: 0px;
+        margin-bottom: 6px;
+        float: none;
     }
 }
 
