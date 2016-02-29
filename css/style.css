@@ -65,7 +65,6 @@ div.info {
 .info img {
     height: 118px;
     width: 118px;
-    content: url('http://res.cloudinary.com/demo/image/twitter_name/RichardAAbramso.jpg');
 }
 
 .info p {
