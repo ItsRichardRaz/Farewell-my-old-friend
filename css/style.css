@@ -14,6 +14,8 @@ body {
     width: 100%;
     text-align: center;
     margin: 0;
+    overflow: hidden;
+    position: fixed;
 }
 
 ::selection {
@@ -74,6 +76,7 @@ div.jalus {
     background-color: rgba(0, 0, 0, 0.8);
     bottom: 0;
     padding: 16px 16px;
+    line-height: normal;
 }
 
 .jalus p.aut {
@@ -97,7 +100,7 @@ div.jalus {
 
 .jalus img.sp1 {
     float: left;
-    margin-top: 11px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -108,6 +111,7 @@ div.jalus {
 .jalus .sots {
     font-size: 22px;
     float: right !important;
+    margin-top: 1px;
 }
 
 .jalus .sots a i {
@@ -217,7 +221,7 @@ Reag. Korrapärasus x3
     }
 }
 
-@media only screen and (max-height: 370px) and (max-width: 300px) {
+@media only screen and (max-height: 370px) and (max-width: 320px) {
     .info img {
         display: none;
     }
