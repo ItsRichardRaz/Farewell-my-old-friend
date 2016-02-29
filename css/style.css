@@ -85,7 +85,7 @@ div.jalus {
     float: left !important;
 }
 
-.jalus p.aut:hover {
+.jalus p.aut span.ktekst:hover {
     color: #DADADA;
 }
 
@@ -94,14 +94,16 @@ div.jalus {
     height: 10px;
 }
 
+.jalus a.sponsor {
+    font-size: 10px;
+}
+
 .jalus a img.sponsor:hover {
     content: url('../img/zone-color.png');
 }
 
 .jalus img.sp1 {
-    float: left;
-    margin-top: 10px;
-    margin-left: 10px;
+    vertical-align: baseline;
 }
 
 .jalus img.sp2 {
