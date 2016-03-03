@@ -1,7 +1,7 @@
 function hover(element) {
-    element.setAttribute('src', 'http://richard.ee/img/zone-color.png');
+    element.setAttribute('src', '../img/zone-color.png');
 }
 
 function unhover(element) {
-    element.setAttribute('src', 'http://richard.ee/img/zone-gray.png');
+    element.setAttribute('src', '../img/zone-gray.png');
 }
