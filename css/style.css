@@ -71,6 +71,10 @@ div.info {
     margin-top: 16px;
 }
 
+.info p.tv {
+    margin-top: 0px;
+}
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~
 Jalus ^-^
