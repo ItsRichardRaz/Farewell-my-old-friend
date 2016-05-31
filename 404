@@ -1,0 +1,16 @@
+---
+permalink: /404.html
+---
+
+<html>
+<head>
+<title>404</title>
+</head>
+<body></body>
+<link href="https://richard.ee/css/style.css" rel="stylesheet" type="text/css" />
+<div style="height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.8);">
+<h1>Oopsie! richard.ee<!--#echo var="REQUEST_URI" --> was not found :o!</h1>
+
+<h2>404</h2>
+</div>
+</html>
