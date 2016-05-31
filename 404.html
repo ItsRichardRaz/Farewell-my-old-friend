@@ -27,11 +27,15 @@ permalink: /404.html
     <link rel="manifest" href="img/favicons/manifest.json">
     <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    
+    <script>
+     document.getElementById("dir").innerHTML = window.location.pathname;
+    </script>
 </head>
 <body>
     <link href="https://richard.ee/css/style.css" rel="stylesheet" type="text/css" />
     <div style="height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.8);">
-    <h1>Oopsie! richard.ee/<?php $_SERVER['REQUEST_URI'] ?> was not found :o!</h1>
+    <h1>Oopsie! richard.ee<p id="dir"></p> was not found :o!</h1>
 <h2>404</h2>
 </div>
 </body>
