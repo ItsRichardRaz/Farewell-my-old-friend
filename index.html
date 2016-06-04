@@ -31,10 +31,6 @@
     <link rel="manifest" href="img/favicons/manifest.json">
     <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="img/favicons/favicon.ico">
-
-    <script type="text/javascript">
-        document.getElementsByTagName('html')[0].className = 'jsOn';
-    </script>
     
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/Bootsrap.min.css" />
@@ -47,7 +43,7 @@
 </head>
 
 <body>
-    <div class="laadi jahScript"></div>
+    <div class="laadi"></div>
     <div class="info">
         <img class="info img-circle" src="https://res.cloudinary.com/demo/image/twitter_name/w_140/RichardAAbramso.jpg" />
         <p>Lihtne poiss, kellele meeldib nokitseda lihtsate asjade kallal. Nagu see lihtne leht siin.</p>
@@ -74,6 +70,12 @@
     
     <script type="text/javascript" src="js/tooltip.js"></script>
     <script type="text/javascript" src="js/sponsorFB.js"></script>
+    
+    <script language="javascript" type="text/javascript">
+     $(window).load(function() {
+     $('#laadi').hide();
+  });
+</script>
     
 </body>
 
