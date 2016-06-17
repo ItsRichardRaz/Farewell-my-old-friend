@@ -27,6 +27,11 @@ body {
     background: #C4C4C4;
 }
 
+.hover {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~
 Laadur ;3
@@ -102,7 +107,7 @@ div.jalus {
     font-size: 10px;
 }
 
-.jalus a img.sponsor:hover
+.jalus a img.sponsor:hover,
 .jalus a img.sponsor:focus {
     content: url('../img/zone-color.png');
 }
