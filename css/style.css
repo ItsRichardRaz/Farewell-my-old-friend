@@ -17,6 +17,8 @@ body {
     overflow: hidden;
     position: fixed;
     cursor: default;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
 }
 
 ::selection {
@@ -25,11 +27,6 @@ body {
 
 ::-moz-selection {
     background: #C4C4C4;
-}
-
-.hover {
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
 }
 
 
