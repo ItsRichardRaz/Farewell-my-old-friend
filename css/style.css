@@ -124,7 +124,8 @@ div.jalus {
     color: #676767;
 }
 
-.jalus .sots a i:hover {
+.jalus .sots a i:hover,
+.jalus .sots a i:focus {
     color: #DADADA;
 }
 
