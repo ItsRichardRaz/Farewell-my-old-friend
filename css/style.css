@@ -99,10 +99,6 @@ div.jalus {
     height: 10px;
 }
 
-.jalus a.sponsor {
-    font-size: 10px;
-}
-
 .jalus a img.sponsor:hover,
 .jalus a img.sponsor:focus {
     content: url('../img/zone-color.png');
