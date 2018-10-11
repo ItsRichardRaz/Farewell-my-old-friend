@@ -95,8 +95,10 @@ div.jalus {
     color: #DADADA;
 }
 
-.jalus img.sponsor {
+.jalus img.sponsor,
+.jalus a.sponsor {
     height: 10px;
+    display: inline-grid;
 }
 
 .jalus a img.sponsor:hover,
