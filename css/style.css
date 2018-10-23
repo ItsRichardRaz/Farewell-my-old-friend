@@ -99,18 +99,19 @@ div.jalus {
 .jalus a.sponsor {
     height: 10px;
     display: inline-grid;
+    content: url('../img/rmgroup.png');
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
-.jalus a img.sponsor:hover,
-.jalus a img.sponsor:focus {
-    content: url('../img/rmgroup-color.png');
+.jalus a.sponsor:hover,
+.jalus a.sponsor:focus  {
+    content: url('../img/rmgroup.png');
+    -webkit-filter: none;
+    filter: none;
 }
 
-.jalus img.sp1 {
-    vertical-align: baseline;
-}
-
-.jalus img.sp2 {
+.jalus a.sp2 {
     display: none;
 }
 
@@ -170,10 +171,12 @@ Reag. Korrapärasus x3
         margin-bottom: auto;
         width: 100%;
     }
-    .jalus img.sp1 {
+
+    .jalus a.sp1 {
         display: none;
     }
-    .jalus img.sp2 {
+
+    .jalus a.sp2 {
         display: initial;
         margin-top: 0px;
         margin-bottom: 6px;
@@ -199,10 +202,10 @@ Reag. Korrapärasus x3
         margin-bottom: auto;
         width: 100%;
     }
-    .jalus img.sp1 {
+    .jalus a.sp1 {
         display: none;
     }
-    .jalus img.sp2 {
+    .jalus a.sp2 {
         display: initial;
         margin-top: 0px;
         margin-bottom: 6px;
