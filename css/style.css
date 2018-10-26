@@ -95,7 +95,6 @@ div.jalus {
     color: #DADADA;
 }
 
-.jalus img.sponsor,
 .jalus a.sponsor {
     height: 10px;
     display: inline-grid;
@@ -106,7 +105,6 @@ div.jalus {
 
 .jalus a.sponsor:hover,
 .jalus a.sponsor:focus  {
-    content: url('../img/rmgroup.png');
     -webkit-filter: none;
     filter: none;
 }
