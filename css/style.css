@@ -87,7 +87,7 @@ div.jalus {
 .jalus p.aut {
     margin-top: 5px;
     font-size: 15px;
-    float: left !important;
+    float: left;
 }
 
 .jalus p.aut span.ktekst:hover,
@@ -115,7 +115,7 @@ div.jalus {
 
 .jalus .sots {
     font-size: 22px;
-    float: right !important;
+    float: right;
     margin-top: 1px;
 }
 
@@ -157,7 +157,7 @@ Reag. Korrapärasus x3
         height: 100%;
     }
     .jalus {
-        background-color: transparent!important;
+        background-color: transparent !important;
         margin: 28px 0px;
     }
     .jalus .sots {
@@ -188,7 +188,7 @@ Reag. Korrapärasus x3
         height: 100%;
     }
     .jalus {
-        background-color: transparent!important;
+        background-color: transparent !important;
         margin: 28px 0px;
     }
     .jalus .sots {
